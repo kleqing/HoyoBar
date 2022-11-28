@@ -35,6 +35,8 @@ Basically, `HoyoBar` lives in your macOS menu bar quietly, and offers you a nice
 
 ## Installation
 
+<details> <summary>Post-install</summary>
+
 > Open `.dmg` file, copy `HoyoBar.app` to /Application
 >
 > Open `HoyoBar.app`
@@ -49,7 +51,10 @@ Basically, `HoyoBar` lives in your macOS menu bar quietly, and offers you a nice
 >
 > 👍 Enjoy! 
 >
+</details>
+
 > For more infomation about the post-install, please check at: https://paimon.swo.moe
+
 
 ## Things to know
 
@@ -61,9 +66,9 @@ Basically, `HoyoBar` lives in your macOS menu bar quietly, and offers you a nice
 * Credits to @spencerwoo for his original app. Check [here](https://github.com/spencerwooo/PaimonMenuBar) if you want to use original version instead of this one!
 
 <details>
-<summary>Development notes.</summary>
+<summary>Feature & build</summary>
 
-## Features
+### Features
 
 * [x] Start at login.
 * [x] Complie using target 10.13 instead of 11.0+.
@@ -75,7 +80,7 @@ Basically, `HoyoBar` lives in your macOS menu bar quietly, and offers you a nice
 * [x] Custom website and help for acquiring the cookie.
 * [x] Support for cn and global genshin accounts (米游社 and hoyolab).
 
-## Build
+### Build
 
 * Using Xcode 13, Swift 5.5 and SDK 10.13.
 * App icon was built from Apple icon template for Adobe Photoshop.
