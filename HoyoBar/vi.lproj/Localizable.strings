@@ -1,0 +1,122 @@
+/* 
+  Localizable.strings
+  PaimonMenuBar
+
+  Created by Nhan Pham on 27/11/2022.
+  
+*/
+"*Resin replenishes every 8 minutes, for your reference." = "Nhựa sẽ tăng lên sau 8 phút, tuỳ vào thời gian bạn điều chỉnh.";
+
+"About" = "Về ứng dụng";
+
+"Check for Updates" = "Kiểm tra cập nhật";
+
+"Complete" = "Hoàn thành";
+
+"Configuration" = "Cấu hình";
+
+"Current Resin" = "Nhựa hiện tại";
+
+"Current version: %@ (%@)" = "Phiên bản hiện tại：%@ (%@)";
+
+"Daily commissions" = "Uỷ thác hằng ngày";
+
+"ETA" = "Thời gian còn lại";
+
+"Expeditions %lld/%lld" = "Thám hiểm";
+
+"Fully replenished" = "Thời gian đầy";
+
+"Launch at Login" = "Mở ứng dụng lúc đăng nhập";
+
+"Paimon fetches data every %.0f seconds*" = "Paimon làm mới dữ liệu sau %.0f giây";
+
+"Paste your cookie from:" = "Dán cookie của bạn từ：";
+
+"User" = "UID";
+
+"Preferences" = "Cài đặt";
+
+"Realm currency" = "Tiền động tiên";
+
+"UID:" = "UID：";
+
+"Server:" = "Máy chủ：";
+
+"Start:" = "Khởi động：";
+
+"Test config" = "Thử cookie";
+
+"Update interval:" = "Khoảng thời gian cập nhật：";
+
+"Updates:" = "Cập nhật：";
+
+"Check for Updates" = "Kiểm tra cập nhật";
+
+"Tomorrow" = "Ngày mai";
+
+"Today" = "Hôm nay";
+
+"Exploring" = "Đang thám hiểm";
+
+"Complete" = "Hoàn thành";
+
+"Weekly bosses" = "Boss trong tuần";
+
+"Quit" = "Thoát";
+
+"👌 It's working!" = "👌 Hoạt động tốt!";
+
+"Your config is valid." = "Cookie đã nhập hợp lệ.";
+
+"🚫 Whoooops..." = "🚫 Úi...";
+
+"Failed to fetch, check your config." = "Thất bại khi lấy thông tin, hãy kiểm tra lại cookie của bạn.";
+
+"Parametric transformer" = "Máy biến đổi tham số";
+
+"Update: %@" = "Chập nhật：%@";
+
+"Not updated" = "Paimon chưa được cập nhật!";
+
+"Menubar icon:" = "Biểu tượng thanh menu：";
+
+"Native macOS adaptive icon." = "Biểu tượng tương tự macOS";
+
+"Colored icon." = "Tô màu biểu tượng";
+
+"%@ left" = "Còn lại %@";
+
+"Ready" = "Đã xong";
+
+"Unavailable" = "Không sẵn sàng để dùng";
+
+"day" = "ngày";
+
+"days" = "ngày";
+
+"hour" = "tiếng";
+
+"hours" = "tiếng";
+
+"min" = "phút";
+
+"mins" = "phút";
+
+"NOT INITIALIZED" = "KHÔNG CÓ THÔNG TIN";
+
+"Please go to _Preferences > Configuration_ and setup your in-game **_UID_**, **_server_**, and **_cookie_**." = "Vui lòng vaof Cài đặt > Cấu hình và nhập **_UID_** in-game của bạn, **_sever_** và **_cookie_**.";
+
+"Open preferences here" = "Mở cài đặt ở đây";
+
+"Parametric transformer is ready" = "Máy biến đổi tham số đã sẵn sàng";
+
+"Notify:" = "Thông báo：";
+
+"... when parametric transformer is ready." = "... Thông báo khi máy biến đổi tham số đã sẵn sàng";
+
+"⚠️ Data fetch failed, check your configuration" = "⚠️ Thất bại khi nhập thông tin, kiểm tra lại cấu hình của bạn";
+
+"⚠️ Notification unauthorized." = "⚠️ Thông báo chưa được uỷ quyền.";
+
+"This cookie is only stored locally." = "Cookie này chỉ được lưu trữ trên máy bạn.";
