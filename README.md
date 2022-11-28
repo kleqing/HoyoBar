@@ -56,12 +56,6 @@ Basically, `HoyoBar` lives in your macOS menu bar quietly, and offers you a nice
 
 > For more infomation about setup, please check https://paimon.swo.moe
 
-
-## Things to know
-
-1. HoyoBar uses the official Hoyoverse API found in either [米游社 (for CN players)](https://bbs.mihoyo.com/ys/) or [HoYoLAB (for Global players)](https://www.hoyolab.com/home).
-2. Yes, HoyoBar needs your cookie. It is so that HoyoBar can request said API on your behalf, and fetch those in-game stats periodically. Rest assured that **the cookie is only stored locally.**
-
 ## Credits
 
 * Credits to @spencerwoo for his original app. Check [here](https://github.com/spencerwooo/PaimonMenuBar) if you want to use original version instead of this one!
@@ -89,11 +83,18 @@ Basically, `HoyoBar` lives in your macOS menu bar quietly, and offers you a nice
 
 </details>
 
+## Things to know
+
+1. HoyoBar uses the official Hoyoverse API found in either [米游社 (for CN players)](https://bbs.mihoyo.com/ys/) or [HoYoLAB (for Global players)](https://www.hoyolab.com/home).
+2. Yes, HoyoBar needs your cookie. It is so that HoyoBar can request said API on your behalf, and fetch those in-game stats periodically. Rest assured that **the cookie is only stored locally.**
+3. Because this is the rebuild version, updates aren't working at this time. I will tried to add it soon!
+
+
 ## License
 
 <div align="center">
   <img src="Assets/footer.png" />
-  <em>Rebuilt by <a href="https://github.com/kleqing">kleqing</a><br>All credits and copyright are belongs to <a href="https://spencerwoo.com">spencerwoo.</a>
+  <em>Rebuilt by <a href="https://github.com/kleqing">kleqing</a><br>All credits and copyright are belongs to <a href="https://spencerwoo.com">spencerwoo</a>
   </em>
   <h6>This is a forked version and I just built for mine. For the long term support, please using the <a href="https://github.com/spencerwooo/PaimonMenuBar">original</a> one.</h6>
   <h6>HoyoBar is not affiliated with <a href="https://www.hoyoverse.com">Hoyoverse.</a> Game content and materials are trademarks and copyright of Hoyoverse.</h6>
