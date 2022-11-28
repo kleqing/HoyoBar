@@ -10,7 +10,7 @@
 
 ## What's this?
 
-![screenshot](Assets/src.png)
+![screenshot](Assets/scr.png)
 
 > Paimon helps you track your Genshin Impact daily resin, expeditions, and more — straight in your macOS menu bar.
 
