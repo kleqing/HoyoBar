@@ -33,9 +33,10 @@ Basically, `HoyoBar` lives in your macOS menu bar quietly, and offers you a nice
 
 [![GitHub Release](https://img.shields.io/github/v/release/kleqing/HoyoBar?labelColor=282c34&logo=GitHub&style=for-the-badge)](https://github.com/kleqing/HoyoBar/releases/latest)
 
-## Installation
+## Setup
 
 <details> <summary>Post-install</summary>
+<br>
 
 > Open `.dmg` file, copy `HoyoBar.app` to /Application
 >
@@ -53,7 +54,7 @@ Basically, `HoyoBar` lives in your macOS menu bar quietly, and offers you a nice
 >
 </details>
 
-> For more infomation about the post-install, please check at: https://paimon.swo.moe
+> For more infomation about setup, please check https://paimon.swo.moe
 
 
 ## Things to know
@@ -74,19 +75,17 @@ Basically, `HoyoBar` lives in your macOS menu bar quietly, and offers you a nice
 * [x] Complie using target 10.13 instead of 11.0+.
 * [x] Supported both Intel and M1 Macs.
 * [x] Support English, Chinese and Vietnamese.
-* [x] Using HoyoLab icon instead of HuTao icon (I love original icon than HuTao icon although I got her at 2.2 because I want to make some people think that it's 'HoyoLab Lite')
-* [x] Code-sign and publish as `.dmg`.
-* [x] Auto-updates and check for update. (I didn't check yet)
+* [x] Using HoyoLab icon instead of HuTao icon (I love original icon than Hu Tao icon although I got her at 2.2 because I want to make some people think that it's 'HoyoLab Lite')
+* [x] Code-sign and publish as `.dmg`
 * [x] Custom website and help for acquiring the cookie.
 * [x] Support for cn and global genshin accounts (米游社 and hoyolab).
+  ~~[] Check for update and auto updates ~~
 
 ### Build
 
 * Using Xcode 13, Swift 5.5 and SDK 10.13.
 * App icon was built from Apple icon template for Adobe Photoshop.
 * Using DropDMG to create `.dmg` file.
-
-* Add appcast.xml with the version tag and build number.
 
 </details>
 
