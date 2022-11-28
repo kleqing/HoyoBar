@@ -4,7 +4,7 @@
   <p><em>Real-time tracking your Genshin Impact account status into your macOS menubar</em></p>
 
   <img src="https://img.shields.io/badge/uses-SwiftUI-f05138?labelColor=282c34&logo=swift" alt="Use Swift" />
-  <img src="https://img.shields.io/badge/macOS-11.0+-f05138?labelColor=282c34&logo=apple" alt="macOS 10.13+" />
+  <img src="https://img.shields.io/badge/macOS-10.13+-f05138?labelColor=282c34&logo=apple" alt="macOS 10.13+" />
   <a href="https://github.com/kleqing/HoyoBar/releases/latest"><img src="https://img.shields.io/github/v/release/kleqing/HoyoBar?labelColor=282c34&logo=GitHub" alt="GitHub Release" /></a>
 </div>
 
