@@ -31,7 +31,7 @@ Basically, `HoyoBar` lives in your macOS menu bar quietly, and offers you a nice
 
 ## Download
 
-[![GitHub Release](https://img.shields.io/github/v/release/spencerwoo/PaimonMenuBar?labelColor=282c34&logo=GitHub&style=for-the-badge)](https://github.com/kleqing/HoyoBar/releases/latest)
+[![GitHub Release](https://img.shields.io/github/v/release/kleqing/HoyoBar?labelColor=282c34&logo=GitHub&style=for-the-badge)](https://github.com/kleqing/HoyoBar/releases/latest)
 
 ## Installation
 
@@ -41,7 +41,7 @@ Basically, `HoyoBar` lives in your macOS menu bar quietly, and offers you a nice
 >
 > In menubar, press the `-/160` and press `Preferences` - `Configuration`
 >
-> Open [Chrome](google.com/chrome) and go to [HoyoLab](hoyolab.com)
+> Open [Chrome](https://www.google.com/chrome) and go to [HoyoLab](https://www.hoyolab.com)
 >
 > Open DevTools and go to `Console` tab, then type `document.cookie` and Enter
 >
