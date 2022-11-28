@@ -1,11 +1,11 @@
 <div align="center">
   <img src="Assets/logo.png" alt="logo" width="160" height="160" />
-  <h3><code>PaimonMenuBar</code></h3>
+  <h3><code>HoyoBar</code></h3>
   <p><em>Real-time tracking your Genshin Impact account status into your macOS menubar</em></p>
 
   <img src="https://img.shields.io/badge/uses-SwiftUI-f05138?labelColor=282c34&logo=swift" alt="Use Swift" />
   <img src="https://img.shields.io/badge/macOS-11.0+-f05138?labelColor=282c34&logo=apple" alt="macOS 10.13+" />
-  <a href="https://github.com/kleqing/HoyoBar/releases/latest"><img src="https://img.shields.io/github/v/release/spencerwooo/PaimonMenuBar?labelColor=282c34&logo=GitHub" alt="GitHub Release" /></a>
+  <a href="https://github.com/kleqing/HoyoBar/releases/latest"><img src="https://img.shields.io/github/v/release/kleqing/HoyoBar?labelColor=282c34&logo=GitHub" alt="GitHub Release" /></a>
 </div>
 
 ## What's this?
@@ -26,18 +26,30 @@ Basically, `HoyoBar` lives in your macOS menu bar quietly, and offers you a nice
 > **Note**
 >
 > `HoyoBar` is made with SwiftUI, designed for and native to macOS.
+>
 > Support both Intel (x86) and M1 (arm64)
 
 ## Download
 
-[![GitHub Release](https://img.shields.io/github/v/release/kleqing/HoyoBar?labelColor=282c34&logo=GitHub&style=for-the-badge)](https://github.com/kleqing/HoyoBar/releases/latest)
+[![GitHub Release](https://img.shields.io/github/v/release/spencerwoo/PaimonMenuBar?labelColor=282c34&logo=GitHub&style=for-the-badge)](https://github.com/kleqing/HoyoBar/releases/latest)
 
 ## Installation
 
 > Open `.dmg` file, copy `HoyoBar.app` to /Application
+>
 > Open `HoyoBar.app`
-
-> https://paimon.swo.moe
+>
+> In menubar, press the `-/160` and press `Preferences` - `Configuration`
+>
+> Open [Chrome](google.com/chrome) and go to [HoyoLab](hoyolab.com)
+>
+> Open DevTools and go to `Console` tab, then type `document.cookie` and Enter
+>
+> Copy cookie and paste it to `HoyoBar`, then press `Test config`
+>
+> 👍 Enjoy! 
+>
+> For more infomation about the post-install, please check at: https://paimon.swo.moe
 
 ## Things to know
 
@@ -75,11 +87,10 @@ Basically, `HoyoBar` lives in your macOS menu bar quietly, and offers you a nice
 
 ## License
 
-[MIT](LICENSE)
-
 <div align="center">
   <img src="Assets/footer.png" />
-  <em>Rebuilt by <a href="https://github.com/kleqing">kleqing</a><br>All credit are belongs to <a href="https://spencerwoo.com">spencerwoo</a>.
+  <em>Rebuilt by <a href="https://github.com/kleqing">kleqing</a><br>All credits and copyright are belongs to <a href="https://spencerwoo.com">spencerwoo.</a>
   </em>
   <h6>This is a forked version and I just built for mine. For the long term support, please using the <a href="https://github.com/spencerwooo/PaimonMenuBar">original</a> one.</h6>
+  <h6>HoyoBar is not affiliated with <a href="https://www.hoyoverse.com">Hoyoverse.</a> Game content and materials are trademarks and copyright of Hoyoverse.</h6>
 </div>
