@@ -95,7 +95,7 @@ Basically, `HoyoBar` lives in your macOS menu bar quietly, and offers you a nice
 <div align="center">
   <img src="Assets/footer.png" />
   <em>Rebuilt by <a href="https://github.com/kleqing">kleqing</a><br>All credits and copyright are belongs to <a href="https://spencerwoo.com">spencerwoo</a>
-  </em>
   <h6>This is a forked version and I just built for mine. For the long term support, please using the <a href="https://github.com/spencerwooo/PaimonMenuBar">original</a> one.</h6>
-  <h6>HoyoBar is not affiliated with <a href="https://www.hoyoverse.com">Hoyoverse.</a> Game content and materials are trademarks and copyright of Hoyoverse.</h6>
+  <h6>HoyoBar is not affiliated with <a href="https://www.hoyoverse.com">Hoyoverse.</a> Game content and materials are trademarks and copyright of Hoyoverse and spencerwoo.</h6>
+  </em>
 </div>
