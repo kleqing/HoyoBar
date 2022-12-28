@@ -73,7 +73,7 @@ Basically, `HoyoBar` lives in your macOS menu bar quietly, and offers you a nice
 * [x] Code-sign and publish as `.dmg`
 * [x] Custom website and help for acquiring the cookie.
 * [x] Support for cn and global genshin accounts (米游社 and hoyolab).
-* [x] Check for update and auto updates
+* [x] Check for update and auto updates (since v1.1)
 
 ### Build
 
