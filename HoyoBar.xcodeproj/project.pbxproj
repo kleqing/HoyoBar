@@ -3,43 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		323850E1282540EE0097B5C2 /* Compatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323850E0282540EE0097B5C2 /* Compatibility.swift */; };
-		6842DBBE2933A01D00C7F78C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76CCDDE127EAD1C5009CFC64 /* Assets.xcassets */; };
-		6863924C2934DD92005A3175 /* Defaults in Frameworks */ = {isa = PBXBuildFile; productRef = 6863924B2934DD92005A3175 /* Defaults */; };
-		6863924F2934DDBD005A3175 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 6863924E2934DDBD005A3175 /* Sparkle */; };
-		686392522934DDE9005A3175 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 686392512934DDE9005A3175 /* Kingfisher */; };
-		686392552934DDF7005A3175 /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 686392542934DDF7005A3175 /* LaunchAtLogin */; };
+		68BCD61B295C581C004C893E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 68BCD61A295C581C004C893E /* Kingfisher */; };
+		68BCD61E295C5895004C893E /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 68BCD61D295C5895004C893E /* LaunchAtLogin */; };
+		68BCD624295C5C84004C893E /* UpdaterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F9AE6C27F570D90051CDC8 /* UpdaterViewModel.swift */; };
+		68BCD62B295C6173004C893E /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = 68BCD62A295C6173004C893E /* Sparkle */; };
+		68BCD637295C63C2004C893E /* Defaults in Frameworks */ = {isa = PBXBuildFile; productRef = 68BCD636295C63C2004C893E /* Defaults */; };
 		7621675327F2FC080023F8B2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7621675527F2FC080023F8B2 /* Localizable.strings */; };
 		7686474127EF082400BCC350 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7686474027EF082400BCC350 /* Bundle.swift */; };
 		76C290F027EAFFB000A30C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C290EF27EAFFB000A30C9F /* AppDelegate.swift */; };
-		76CCDDDE27EAD1C4009CFC64 /* HoyoBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CCDDDD27EAD1C4009CFC64 /* HoyoBarApp.swift */; };
+		76CCDDDE27EAD1C4009CFC64 /* HoyoBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CCDDDD27EAD1C4009CFC64 /* HoyoBar.swift */; };
 		76CCDDE027EAD1C4009CFC64 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CCDDDF27EAD1C4009CFC64 /* SettingsView.swift */; };
+		76CCDDE227EAD1C5009CFC64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76CCDDE127EAD1C5009CFC64 /* Assets.xcassets */; };
 		76CCDDE527EAD1C5009CFC64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76CCDDE427EAD1C5009CFC64 /* Preview Assets.xcassets */; };
 		76D73BBF27EC650500CCDEA6 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D73BBE27EC650500CCDEA6 /* DataModels.swift */; };
 		76D73BC127EC67D300CCDEA6 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D73BC027EC67D300CCDEA6 /* Networking.swift */; };
 		76E429A927EDDE000032313C /* GameRecordUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E429A827EDDE000032313C /* GameRecordUpdater.swift */; };
 		76E986B627EDD5FC004ECC6C /* MenuExtrasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E986B527EDD5FC004ECC6C /* MenuExtrasView.swift */; };
-		76F9AE6D27F570D90051CDC8 /* UpdaterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F9AE6C27F570D90051CDC8 /* UpdaterViewModel.swift */; };
 		9F38F96F281D1BE90004D240 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F38F96E281D1BE90004D240 /* Defaults.swift */; };
+		9F38F974281D4D120004D240 /* Defaults+Workaround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F38F973281D4D120004D240 /* Defaults+Workaround.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		323850E0282540EE0097B5C2 /* Compatibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compatibility.swift; sourceTree = "<group>"; };
-		682F5B9029335C22000274E3 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
-		6880BBDC29349E8600D069AB /* HoyoBar.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = HoyoBar.entitlements; sourceTree = "<group>"; };
+		68BCD611295C5610004C893E /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7621675427F2FC080023F8B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7621675627F2FC0B0023F8B2 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		7686474027EF082400BCC350 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		76B3F03127F2B76100833555 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		76C290EF27EAFFB000A30C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		76CCDDDD27EAD1C4009CFC64 /* HoyoBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoyoBarApp.swift; sourceTree = "<group>"; };
+		76CCDDDD27EAD1C4009CFC64 /* HoyoBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoyoBar.swift; sourceTree = "<group>"; };
 		76CCDDDF27EAD1C4009CFC64 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		76CCDDE127EAD1C5009CFC64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76CCDDE427EAD1C5009CFC64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		76CCDDE627EAD1C5009CFC64 /* HoyoBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HoyoBar.entitlements; sourceTree = "<group>"; };
 		76D73BBE27EC650500CCDEA6 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
 		76D73BC027EC67D300CCDEA6 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		76E429A827EDDE000032313C /* GameRecordUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRecordUpdater.swift; sourceTree = "<group>"; };
@@ -55,22 +56,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				686392522934DDE9005A3175 /* Kingfisher in Frameworks */,
-				6863924C2934DD92005A3175 /* Defaults in Frameworks */,
-				686392552934DDF7005A3175 /* LaunchAtLogin in Frameworks */,
-				6863924F2934DDBD005A3175 /* Sparkle in Frameworks */,
+				68BCD637295C63C2004C893E /* Defaults in Frameworks */,
+				68BCD62B295C6173004C893E /* Sparkle in Frameworks */,
+				68BCD61E295C5895004C893E /* LaunchAtLogin in Frameworks */,
+				68BCD61B295C581C004C893E /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68BCD621295C598D004C893E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		76CCDDD127EAD1C4009CFC64 = {
 			isa = PBXGroup;
 			children = (
 				76B3F03127F2B76100833555 /* README.md */,
 				76CCDDDC27EAD1C4009CFC64 /* HoyoBar */,
 				76F9AE6B27F570640051CDC8 /* HoyoBar.app */,
+				68BCD621295C598D004C893E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,8 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				7621675527F2FC080023F8B2 /* Localizable.strings */,
-				76CCDDDD27EAD1C4009CFC64 /* HoyoBarApp.swift */,
-				6880BBDC29349E8600D069AB /* HoyoBar.entitlements */,
+				76CCDDDD27EAD1C4009CFC64 /* HoyoBar.swift */,
 				76E986B527EDD5FC004ECC6C /* MenuExtrasView.swift */,
 				76E429A827EDDE000032313C /* GameRecordUpdater.swift */,
 				76CCDDDF27EAD1C4009CFC64 /* SettingsView.swift */,
@@ -87,6 +95,7 @@
 				9F38F96E281D1BE90004D240 /* Defaults.swift */,
 				7686474027EF082400BCC350 /* Bundle.swift */,
 				76CCDDE127EAD1C5009CFC64 /* Assets.xcassets */,
+				76CCDDE627EAD1C5009CFC64 /* HoyoBar.entitlements */,
 				76CCDDE327EAD1C5009CFC64 /* Preview Content */,
 				76C290EF27EAFFB000A30C9F /* AppDelegate.swift */,
 				76D73BBE27EC650500CCDEA6 /* DataModels.swift */,
@@ -123,10 +132,10 @@
 			);
 			name = HoyoBar;
 			packageProductDependencies = (
-				6863924B2934DD92005A3175 /* Defaults */,
-				6863924E2934DDBD005A3175 /* Sparkle */,
-				686392512934DDE9005A3175 /* Kingfisher */,
-				686392542934DDF7005A3175 /* LaunchAtLogin */,
+				68BCD61A295C581C004C893E /* Kingfisher */,
+				68BCD61D295C5895004C893E /* LaunchAtLogin */,
+				68BCD62A295C6173004C893E /* Sparkle */,
+				68BCD636295C63C2004C893E /* Defaults */,
 			);
 			productName = PaimonMenuBar;
 			productReference = 76F9AE6B27F570640051CDC8 /* HoyoBar.app */;
@@ -140,7 +149,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					76CCDDD927EAD1C4009CFC64 = {
 						CreatedOnToolsVersion = 13.3;
@@ -148,7 +157,7 @@
 				};
 			};
 			buildConfigurationList = 76CCDDD527EAD1C4009CFC64 /* Build configuration list for PBXProject "HoyoBar" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -159,10 +168,10 @@
 			);
 			mainGroup = 76CCDDD127EAD1C4009CFC64;
 			packageReferences = (
-				6863924A2934DD92005A3175 /* XCRemoteSwiftPackageReference "Defaults" */,
-				6863924D2934DDBD005A3175 /* XCRemoteSwiftPackageReference "Sparkle" */,
-				686392502934DDE9005A3175 /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				686392532934DDF7005A3175 /* XCRemoteSwiftPackageReference "LaunchAtLogin" */,
+				68BCD619295C581C004C893E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				68BCD61C295C5895004C893E /* XCRemoteSwiftPackageReference "LaunchAtLogin" */,
+				68BCD629295C6173004C893E /* XCRemoteSwiftPackageReference "Sparkle" */,
+				68BCD635295C63C2004C893E /* XCRemoteSwiftPackageReference "Defaults" */,
 			);
 			productRefGroup = 76CCDDD127EAD1C4009CFC64;
 			projectDirPath = "";
@@ -179,8 +188,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				76CCDDE527EAD1C5009CFC64 /* Preview Assets.xcassets in Resources */,
-				6842DBBE2933A01D00C7F78C /* Assets.xcassets in Resources */,
 				7621675327F2FC080023F8B2 /* Localizable.strings in Resources */,
+				76CCDDE227EAD1C5009CFC64 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +198,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		7686473F27EEED4500BCC350 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -214,14 +224,15 @@
 				76E986B627EDD5FC004ECC6C /* MenuExtrasView.swift in Sources */,
 				7686474127EF082400BCC350 /* Bundle.swift in Sources */,
 				76E429A927EDDE000032313C /* GameRecordUpdater.swift in Sources */,
+				9F38F974281D4D120004D240 /* Defaults+Workaround.swift in Sources */,
 				323850E1282540EE0097B5C2 /* Compatibility.swift in Sources */,
 				76D73BBF27EC650500CCDEA6 /* DataModels.swift in Sources */,
 				76C290F027EAFFB000A30C9F /* AppDelegate.swift in Sources */,
 				76D73BC127EC67D300CCDEA6 /* Networking.swift in Sources */,
-				76F9AE6D27F570D90051CDC8 /* UpdaterViewModel.swift in Sources */,
 				9F38F96F281D1BE90004D240 /* Defaults.swift in Sources */,
 				76CCDDE027EAD1C4009CFC64 /* SettingsView.swift in Sources */,
-				76CCDDDE27EAD1C4009CFC64 /* HoyoBarApp.swift in Sources */,
+				68BCD624295C5C84004C893E /* UpdaterViewModel.swift in Sources */,
+				76CCDDDE27EAD1C4009CFC64 /* HoyoBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +244,7 @@
 			children = (
 				7621675427F2FC080023F8B2 /* en */,
 				7621675627F2FC0B0023F8B2 /* zh-Hans */,
-				682F5B9029335C22000274E3 /* vi */,
+				68BCD611295C5610004C893E /* vi */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -274,11 +285,9 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -338,11 +347,9 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -370,25 +377,26 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = HoyoBar/HoyoBar.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 100;
+				CURRENT_PROJECT_VERSION = 101;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"HoyoBar/Preview Content\"";
 				DEVELOPMENT_TEAM = VDKBQ7V43M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HoyoBar/Info.plist;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.adventure-games";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kleqing.PaimonBar;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = kleqing.HoyoBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -402,25 +410,26 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = HoyoBar/HoyoBar.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 100;
+				CURRENT_PROJECT_VERSION = 101;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"HoyoBar/Preview Content\"";
 				DEVELOPMENT_TEAM = VDKBQ7V43M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HoyoBar/Info.plist;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.adventure-games";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = kleqing.PaimonBar;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = kleqing.HoyoBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -451,23 +460,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6863924A2934DD92005A3175 /* XCRemoteSwiftPackageReference "Defaults" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/sindresorhus/Defaults";
-			requirement = {
-				kind = exactVersion;
-				version = 5.0.0;
-			};
-		};
-		6863924D2934DDBD005A3175 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/sparkle-project/Sparkle";
-			requirement = {
-				kind = exactVersion;
-				version = 2.3.0;
-			};
-		};
-		686392502934DDE9005A3175 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+		68BCD619295C581C004C893E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher";
 			requirement = {
@@ -475,7 +468,7 @@
 				version = 7.4.0;
 			};
 		};
-		686392532934DDF7005A3175 /* XCRemoteSwiftPackageReference "LaunchAtLogin" */ = {
+		68BCD61C295C5895004C893E /* XCRemoteSwiftPackageReference "LaunchAtLogin" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin";
 			requirement = {
@@ -483,28 +476,44 @@
 				version = 4.2.0;
 			};
 		};
+		68BCD629295C6173004C893E /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = exactVersion;
+				version = 2.3.0;
+			};
+		};
+		68BCD635295C63C2004C893E /* XCRemoteSwiftPackageReference "Defaults" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/Defaults";
+			requirement = {
+				kind = exactVersion;
+				version = 6.3.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		6863924B2934DD92005A3175 /* Defaults */ = {
+		68BCD61A295C581C004C893E /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6863924A2934DD92005A3175 /* XCRemoteSwiftPackageReference "Defaults" */;
-			productName = Defaults;
-		};
-		6863924E2934DDBD005A3175 /* Sparkle */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 6863924D2934DDBD005A3175 /* XCRemoteSwiftPackageReference "Sparkle" */;
-			productName = Sparkle;
-		};
-		686392512934DDE9005A3175 /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 686392502934DDE9005A3175 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			package = 68BCD619295C581C004C893E /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
 		};
-		686392542934DDF7005A3175 /* LaunchAtLogin */ = {
+		68BCD61D295C5895004C893E /* LaunchAtLogin */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 686392532934DDF7005A3175 /* XCRemoteSwiftPackageReference "LaunchAtLogin" */;
+			package = 68BCD61C295C5895004C893E /* XCRemoteSwiftPackageReference "LaunchAtLogin" */;
 			productName = LaunchAtLogin;
+		};
+		68BCD62A295C6173004C893E /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68BCD629295C6173004C893E /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
+		68BCD636295C63C2004C893E /* Defaults */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68BCD635295C63C2004C893E /* XCRemoteSwiftPackageReference "Defaults" */;
+			productName = Defaults;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

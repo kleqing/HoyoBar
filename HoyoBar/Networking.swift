@@ -73,17 +73,8 @@ func getGameRecord() async -> GameRecord? {
         var gameRecord = try? JSONDecoder().decode(GameRecord.self, from: data)
         gameRecord?.fetchAt = Date()
         return gameRecord
-        }   catch let error where error is URLError {
-             if (error as! URLError).code==URLError.notConnectedToInternet{
-                 return GameRecord.empty
-             }
-             print("Network Error \(error as! URLError)")
-     //        print(error)
-             return nil
-         }   catch{
-                print("Invalid data")
-     //         print(error)
-             return nil
-         }
-     }
-
+    } catch {
+        print("Invalid data")
+        return nil
+    }
+}

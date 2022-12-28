@@ -118,11 +118,15 @@ struct MenuExtrasView: View {
                 }
                 .padding()
             }
+        }.onAppear {
+            GameRecordUpdater.shared.tryFetchGameRecordAndRender()
         }
     }
 }
 
 struct ResinView: View {
+    @Default(.fetchFailed) private var fetchFailed
+
     let currentResin: Int
     let maxResin: Int
     let resinRecoveryTime: String
@@ -132,8 +136,17 @@ struct ResinView: View {
 
     var body: some View {
         VStack(spacing: 8) {
-            Text((fetchAt != nil) ? "Update: \(formatter.string(time: fetchAt!))" : "Not updated")
-                .font(.caption).opacity(0.4)
+            HStack {
+                Label {
+                    Text((fetchAt == nil) ? "Not updated" :
+                        (fetchFailed ? "Update failed, check the official APP for captchas" :
+                            "Update: \(formatter.string(time: fetchAt!))"))
+                        .font(.caption)
+                } icon: {
+                    Image(systemName: "circle.fill").scaleEffect(0.4).frame(width: 5)
+                        .foregroundColor(fetchFailed ? Color.red : Color.green)
+                }.opacity(0.6)
+            }
 
             HStack(spacing: 4) {
                 Image("FragileResin")

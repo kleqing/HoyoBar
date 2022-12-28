@@ -30,7 +30,9 @@ func getNotificationPermission(completion: @escaping (Bool) -> Void) {
 struct PreferenceSettingsView: View {
     @Default(.recordUpdateInterval) private var recordUpdateInterval
     @Default(.isStatusIconTemplate) private var isStatusIconTemplate
+    @Default(.isShowResinText) private var isShowResinText
     @Default(.isNotifyParametricReady) private var isNotifyParametricReady
+    @Default(.lastGameRecord) private var lastGameRecord
 
     @StateObject var updaterViewModel = UpdaterViewModel.shared
 
@@ -50,16 +52,32 @@ struct PreferenceSettingsView: View {
                 Text("Current version: \(Bundle.main.appVersion ?? "") (\(Bundle.main.buildNumber ?? ""))")
                     .font(.caption).opacity(0.6)
 
-                Defaults.Toggle(key: .isStatusIconTemplate) {
-                    Image("FragileResin")
-                        .renderingMode(isStatusIconTemplate ? .template : .original)
-                        .frame(width: 19, height: 19)
-                }
-                .onChange { _ in
-                    AppDelegate.shared.updateStatusIcon()
+                HStack {
+                    Defaults.Toggle(key: .isStatusIconTemplate) {
+                        Image("FragileResin")
+                            .renderingMode(isStatusIconTemplate ? .template : .original)
+                            .frame(width: 19, height: 19)
+                    }
+                    .onChange { _ in
+                        AppDelegate.shared.updateStatusIcon()
+                    }
+
+                    Defaults.Toggle(key: .isShowResinText) {
+                        Text("\(lastGameRecord.data.current_resin)/\(lastGameRecord.data.max_resin)")
+                            .opacity(isShowResinText ? 1 : 0.4)
+                    }
+                    .onChange { _ in
+                        AppDelegate.shared.updateStatusButtonTitle()
+                    }
                 }
                 .formLabel(Text("Menubar icon:"))
-                Text(isStatusIconTemplate ? "Native macOS adaptive icon." : "Colored icon.").font(.caption).opacity(0.6)
+
+                HStack(spacing: 2) {
+                    Text(isStatusIconTemplate ? "Native macOS adaptive icon." : "Colored icon.").font(.caption)
+                        .opacity(0.6)
+                    Text(isShowResinText ? "With resin counter." : "Resin counter hidden.").font(.caption)
+                        .opacity(0.6)
+                }
 
                 Defaults.Toggle(key: .isNotifyParametricReady) {
                     Image(
@@ -83,22 +101,24 @@ struct PreferenceSettingsView: View {
                 }
                 Text("... when parametric transformer is ready.").font(.caption).opacity(0.6)
 
-                Slider(value: $recordUpdateInterval, in: 60 ... 16 * 60, step: 60, label: {
+                Slider(value: $recordUpdateInterval, in: 1 ... 6, step: 1, label: {
                     Text("Update interval:")
                 }) { editing in
                     isEditing = editing
                 }
                 .frame(width: 360)
 
-                Text("Paimon fetches data every \(recordUpdateInterval, specifier: "%.0f") seconds*")
+                Text("Paimon fetches data every \(recordUpdateInterval, specifier: "%.0f") hour(s)*")
                     .font(.caption).opacity(0.6)
             }
 
             Divider()
 
-            Label("*Resin replenishes every 8 minutes, for your reference.", image: "FragileResin")
-                .font(.caption)
-                .opacity(0.6)
+            Label(
+                "*Updating every 1-3 hours is sufficient, to prevent from being captcha-ed. Don't worry, as Paimon will auto-update the data offline as time passes.",
+                image: "FragileResin"
+            )
+            .font(.caption).opacity(0.6).frame(width: 400)
         }
     }
 }
@@ -196,11 +216,11 @@ struct AboutSettingsView: View {
         VStack(spacing: 8) {
             Image(nsImage: NSImage(named: "AppIcon") ?? NSImage())
             Text(Bundle.main.appName ?? "").font(.headline.bold())
-            Text("Build version \(Bundle.main.appVersion ?? "") (\(Bundle.main.buildNumber ?? ""))")
+            Text("Build \(Bundle.main.appVersion ?? "") (\(Bundle.main.buildNumber ?? ""))")
                 .font(.system(.subheadline, design: .monospaced))
 
             Divider()
-            
+
             Text(
                 "Rebuilt by Kleqing | Forked from @spencerwooo"
             )
@@ -267,7 +287,6 @@ struct SettingsView_Previews: PreviewProvider {
             PreferenceSettingsView()
             ConfigurationSettingsView()
             AboutSettingsView()
-                
         }
     }
 }
