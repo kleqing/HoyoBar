@@ -8,7 +8,7 @@
             <sparkle:version>101</sparkle:version>
             <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/kleqing/HoyoBar/releases/download/v1.1/HoyoBar.dmg" length="8543119" type="application/octet-stream" sparkle:edSignature="7+jx8BN9yjAXLFQUcofW97k6kF5nBs3hMUs67jl4klBe6P3nYAlurJOHYatjg7YlSG/xzg/Dv+AV/Efzf751Aw=="/>
+            <enclosure url="https://github.com/kleqing/HoyoBar/releases/download/v1.1/HoyoBar.dmg" length="8549175" type="application/octet-stream" sparkle:edSignature="Fz0magGsknd4cnxeKY7GlivLC60nyV+/A1SZJllq3ljkocq6J6sMU4wD8YOnpkFqH7zUqAY3wfWK34QTp4ITCQ=="/>
         </item>
     </channel>
 </rss>
