@@ -11,4 +11,15 @@
             <enclosure url="https://github.com/kleqing/HoyoBar/releases/download/v1.1/HoyoBar.dmg" length="8549175" type="application/octet-stream" sparkle:edSignature="Fz0magGsknd4cnxeKY7GlivLC60nyV+/A1SZJllq3ljkocq6J6sMU4wD8YOnpkFqH7zUqAY3wfWK34QTp4ITCQ=="/>
         </item>
     </channel>
+    <channel>
+        <title>HoyoBar</title>
+        <item>
+            <title>1.2</title>
+            <pubDate>Wed, 1 Feb 2023</pubDate>
+            <sparkle:version>102</sparkle:version>
+            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/kleqing/HoyoBar/releases/download/v1.2/HoyoBar.zip" length="8416503" type="application/octet-stream" sparkle:edSignature="feiT0HrfahODID8yVa/jneUqCD1SxkRKSI8xSAJsja7AersmuY154vlUkNzx4dR1bOn3UqWEjZ1ylrzrwGxWDw=="/>
+        </item>
+    </channel>
 </rss>
