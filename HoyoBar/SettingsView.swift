@@ -222,13 +222,31 @@ struct AboutSettingsView: View {
             Divider()
 
             Text(
-                "Rebuilt by Kleqing | Forked from @spencerwooo"
+                "Rebuilt by [kleqing](https://gthub.com/kleqing) | Forked from [@SpencerWoo](https://spencerwoo.com)"
             )
 
             .font(.system(.caption, design: .monospaced))
             
-            Link("Github", destination: URL(string: "https://github.com/kleqing")!)
-                .font(.system(.caption, design: .monospaced))
+            Text(
+                
+                "You can follow me at: [Facebook](https://www.facebook.com/kleqing) or [Twitter](https://twitter.com/kleqing24k)"
+                        )
+                        .font(.system(.caption, design: .monospaced))
+            Text(
+                
+                "App icon are design by me"
+                        )
+                        .font(.system(.caption, design: .monospaced))
+            Text(
+                
+                "HoyoBar is not affiliated with [Hoyverse](https://www.hoyoverse.com/)"
+                        )
+                        .font(.system(.caption, design: .monospaced))
+            Text(
+                
+                "Game content and materials are trademarks and copyright of Hoyoverse and spencerwoo."
+                        )
+                        .font(.system(.caption, design: .monospaced))
         }
     }
 }
