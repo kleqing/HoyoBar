@@ -10,7 +10,8 @@
 
 ## What's this?
 
-![screenshot](Assets/scr.png)
+![ screenshot](./Assets/dark.png#gh-dark-mode-only)
+![screenshot](./Assets/light.png#gh-light-mode-only)
 
 > HoyoBar helps you track your Genshin Impact daily resin, expeditions, and more — straight in your macOS menu bar.
 
@@ -77,7 +78,7 @@ Basically, `HoyoBar` lives in your macOS menu bar quietly, and offers you a nice
 
 ### Build
 
-* Using Xcode 13 (Compatible with Xcode 12), Swift 5.5 and SDK 10.13.
+* Using Xcode 14 (Compatible with Xcode 12), Swift 5.7 and SDK 10.13.
 * App icon was built from Apple icon template for Adobe Photoshop.
 * Using DropDMG to create `.dmg` file.
 
