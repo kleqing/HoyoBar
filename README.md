@@ -10,7 +10,7 @@
 
 ## What's this?
 
-![ screenshot](./Assets/dark.png#gh-dark-mode-only)
+![screenshot](./Assets/dark.png#gh-dark-mode-only)
 ![screenshot](./Assets/light.png#gh-light-mode-only)
 
 > HoyoBar helps you track your Genshin Impact daily resin, expeditions, and more — straight in your macOS menu bar.
